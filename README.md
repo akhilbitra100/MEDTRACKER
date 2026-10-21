@@ -12,13 +12,16 @@
 
 | **Home Dashboard** | **Prescription & Inventory** | **AI Medicine Information** |
 |:---:|:---:|:---:|
-| <img width="230" height="512" alt="1000082773" src="https://github.com/user-attachments/assets/4c1581d6-8bf9-4a35-87db-4c87cfed5614" />
+| <img width="1080" height="2400" alt="Screenshot_2026-10-21-11-04-48-243_com aistudio dosebuddy rxcare" src="https://github.com/user-attachments/assets/195e16d1-0194-4559-9999-feac064896d7" />
+ | <img width="1080" height="2400" alt="Screenshot_2026-10-21-11-04-54-291_com aistudio dosebuddy rxcare" src="https://github.com/user-attachments/assets/1e15f87a-b550-44af-9132-985befd77e73" />
+ | <img width="1080" height="2400" alt="Screenshot_2026-10-21-11-04-57-433_com aistudio dosebuddy rxcare" src="https://github.com/user-attachments/assets/7176aaec-9708-4fbf-a86b-224e44380462" />
  |
 | *Dose summary, scheduled alerts, & AI prescription scanner* | *Active prescription cards, dose times, & refill tracker* | *Gemini-powered clinical guidance on uses & side effects* |
 
 | **Adherence History** | **Settings & Voice Reminders** |
 |:---:|:---:|
-| <img width="230" height="512" alt="1000082774" src="https://github.com/user-attachments/assets/44606e2c-d724-4574-8817-a2bddca052c8" />
+| <img width="1080" height="2400" alt="Screenshot_2026-10-21-11-05-02-047_com aistudio dosebuddy rxcare" src="https://github.com/user-attachments/assets/a040775c-392f-4a03-aae5-cb7621ed1c3d" />
+ | <img width="1080" height="2400" alt="Screenshot_2026-10-21-11-05-15-875_com aistudio dosebuddy rxcare" src="https://github.com/user-attachments/assets/a9c92559-bf0c-489e-b6ab-b3da8bd71bf1" />
  |
 | *7-day adherence scoring, dose logs, and trends* | *TTS voice alerts in English, Hindi, and Telugu* |
 
