@@ -8,6 +8,14 @@
 
 ---
 
+## 📥 Download MEDTRACKER
+
+Download the latest Android APK from [GitHub Releases](https://github.com/akhilbitra100/MEDTRACKER/releases).
+
+Download the APK, open it on your Android device, and allow installation from that source if prompted.
+
+---
+
 ## 📸 Screenshots & App Tour
 
 | **Home Dashboard** | **Prescription & Inventory** | **AI Medicine Information** |
@@ -70,3 +78,41 @@ MEDTRACKER/
 ├── build.gradle.kts          # Root build script
 ├── settings.gradle.kts       # Subproject declarations
 └── README.md
+```
+
+---
+
+## 🔐 Security & Privacy
+
+- Never commit your Gemini API key or other secrets to GitHub.
+- Keep API credentials in secure configuration and avoid exposing them in a publicly distributed APK.
+- Handle prescription and medication data responsibly.
+
+## ⚠️ Medical Disclaimer
+
+MEDTRACKER is intended to support medication organization and adherence. AI-generated medication information may be inaccurate or incomplete and must not replace professional medical advice. Always follow your healthcare professional's instructions.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature suggestions are welcome.
+
+1. Fork this repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Akhil Bitra**
+
+GitHub: [@akhilbitra100](https://github.com/akhilbitra100)
+
+---
+
+⭐ If you find MEDTRACKER useful, consider giving the repository a star!
+
+**Made with ❤️ to support smarter medication management.**
