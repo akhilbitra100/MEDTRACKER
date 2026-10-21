@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">MedTracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_medicines">మందులు</string>
+    <string name="nav_info">సమాచారం</string>
+    <string name="nav_history">చరిత్ర</string>
+    <string name="nav_settings">సెట్టింగ్‌లు</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">శుభోదయం</string>
+    <string name="greeting_afternoon">శుభ మధ్యాహ్నం</string>
+    <string name="greeting_evening">శుభ సాయంత్రం</string>
+    <string name="dose_summary_title">నేటి మోతాదుల సారాంశం</string>
+    <string name="stat_scheduled">షెడ్యూల్ చేసినవి</string>
+    <string name="stat_taken">వేసుకున్నవి</string>
+    <string name="stat_pending">మిగిలినవి</string>
+    <string name="stat_skipped">దాటవేసినవి</string>
+
+    <string name="scan_hero_title">కొత్త ప్రిస్క్రిప్షన్‌ను స్కాన్ చేయండి</string>
+    <string name="scan_hero_desc">ప్రిస్క్రిప్షన్ చిత్రాలను స్కాన్ చేయడానికి మరియు షెడ్యూల్‌ను రూపొందించడానికి Gemini AI ఉపయోగించండి.</string>
+    <string name="scan_hero_button">ప్రిస్క్రిప్షన్ స్కాన్</string>
+
+    <string name="section_today_schedule">నేటి షెడ్యూల్</string>
+    <string name="section_morning">ఉదయం మందులు</string>
+    <string name="section_afternoon">మధ్యాహ్నం మందులు</string>
+    <string name="section_night">రాత్రి మందులు</string>
+    <string name="empty_slot_morning">ఉదయానికి ఎటువంటి మందులు లేవు.</string>
+    <string name="empty_slot_afternoon">మధ్యాహ్నానికి ఎటువంటి మందులు లేవు.</string>
+    <string name="empty_slot_night">రాత్రికి ఎటువంటి మందులు లేవు.</string>
+
+    <string name="btn_take_dose">వేసుకున్నాను</string>
+    <string name="btn_skip">దాటవేయి</string>
+    <string name="btn_undo">రద్దు చేయి</string>
+
+    <!-- Scanner Screen -->
+    <string name="scanner_title">ప్రిస్క్రిప్షన్ AI స్కానర్</string>
+    <string name="scanner_desc">మీ ఫోన్ కెమెరాతో ఫోటో తీయండి, గ్యాలరీ నుండి ఎంచుకోండి లేదా నమూనా ప్రిస్క్రిప్షన్‌లను పరీక్షించండి.</string>
+    <string name="scanner_step_1">1. ప్రిస్క్రిప్షన్ మూలాన్ని ఎంచుకోండి</string>
+    <string name="btn_take_photo">ఫోటో తీయండి</string>
+    <string name="btn_photo_picker">ఫోటో ఎంచుకోండి</string>
+    <string name="demo_rx_infection">🧪 డెమో ప్రిస్క్రిప్షన్ A</string>
+    <string name="demo_rx_cardiac">🧪 డెమో ప్రిస్క్రిప్షన్ B</string>
+    <string name="preview_title">ప్రిస్క్రిప్షన్ ప్రివ్యూ</string>
+    <string name="btn_extract_ai">Gemini AI ద్వారా స్కాన్ చేయండి</string>
+    <string name="analyzing_prescription">Gemini AI విశ్లేషిస్తోంది…</string>
+
+    <string name="scanner_step_2">2. సేకరించిన మందుల వివరాలను పరిశీలించండి</string>
+    <string name="verify_instructions">అసలు ప్రిస్క్రిప్షన్‌తో అన్ని మందుల వివరాలను సరిచూసుకోండి. షెడ్యూల్ రూపొందించే ముందు వివరాలను సవరించండి.</string>
+    <string name="checkbox_verify_disclaimer">నేను అసలు ప్రిస్క్రిప్షన్‌తో మందుల పేర్లు, డోసేజ్ మరియు సూచనలను సరిచూసుకున్నాను.</string>
+    <string name="btn_confirm_schedule">ధృవీకరించి షెడ్యూల్ సృష్టించండి</string>
+    <string name="uncertainty_warning_title">⚠️ ఈ మందు వివరాల ధృవీకరణ అవసరం</string>
+
+    <string name="field_med_name">మందు పేరు</string>
+    <string name="field_strength">మందు సామర్థ్యం (Strength)</string>
+    <string name="field_form">రూపం (టాబ్లెట్, క్యాప్సూల్)</string>
+    <string name="field_dosage">మోతాదు పరిమాణం</string>
+    <string name="field_frequency">ఫ్రీక్వెన్సీ</string>
+    <string name="field_timing">సమయ సూచనలు</string>
+    <string name="field_notes">అదనపు సూచనలు / హెచ్చరికలు</string>
+
+    <string name="slot_morning">ఉదయం</string>
+    <string name="slot_afternoon">మధ్యాహ్నం</string>
+    <string name="slot_night">రాత్రి</string>
+
+    <!-- Medicines Screen -->
+    <string name="medicines_title">నా ప్రిస్క్రిప్షన్లు</string>
+    <string name="medicines_subtitle">%d మందులు ప్రస్తుతం షెడ్యూల్‌లో ఉన్నాయి</string>
+    <string name="search_hint">పేరు లేదా సూచన ద్వారా వెతకండి…</string>
+    <string name="no_meds_found">ఎటువంటి మందులు కనుగొనబడలేదు</string>
+    <string name="btn_add_manual">మాన్యువల్‌గా మందు జోడించండి</string>
+    <string name="delete_dialog_title">మందును తొలగించాలా?</string>
+    <string name="delete_dialog_msg">మీరు ఖచ్చితంగా ఈ మందును తొలగించాలనుకుంటున్నారా? దీని షెడ్యూల్ చేసిన మోతాదులు కూడా తొలగించబడతాయి.</string>
+    <string name="btn_delete">తొలగించు</string>
+    <string name="btn_cancel">రద్దు చేయి</string>
+
+    <!-- Medicine Info Chatbot -->
+    <string name="info_title">మందుల సమాచారం</string>
+    <string name="info_subtitle">Gemini AI ద్వారా మందుల ఉపయోగాలు, దుష్ప్రభావాలు మరియు జాగ్రత్తల క్లినికల్ సమాచారం</string>
+    <string name="quick_ask_label">మీ క్రియాశీల మందుల గురించి అడగండి:</string>
+    <string name="chat_hint">మందు గురించి అడగండి (ఉదా: Amoxicillin దుష్ప్రభావాలు)…</string>
+    <string name="btn_ask">అడుగు</string>
+    <string name="info_disclaimer">సమాచార మార్గదర్శకత్వం మాత్రమే. ఇది వైద్య నిర్ధారణ లేదా వైద్యుని సలహాకు ప్రత్యామ్నాయం కాదు.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">మోతాదుల చరిత్ర</string>
+    <string name="history_subtitle">గత మందుల రికార్డులను సమీక్షించండి మరియు కట్టుబాటును ట్రాక్ చేయండి.</string>
+    <string name="compliance_score">మందుల కట్టుబాటు రేటు</string>
+    <string name="filter_all">అన్నీ</string>
+    <string name="filter_taken">వేసుకున్నవి</string>
+    <string name="filter_skipped">దాటవేసినవి</string>
+    <string name="no_history_records">ఈ విభాగంలో రికార్డులు లేవు.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">సెట్టింగ్‌లు &amp; రిమైండర్‌లు</string>
+    <string name="settings_subtitle">రిమైండర్ సమయాలు, ధ్వని, థీమ్ మరియు భాషను నిర్వహించండి.</string>
+    <string name="setting_theme">థీమ్ మోడ్</string>
+    <string name="theme_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="theme_light">లైట్ మోడ్</string>
+    <string name="theme_dark">డార్క్ మోడ్</string>
+    <string name="setting_language">యాప్ భాష</string>
+    <string name="lang_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="lang_telugu">తెలుగు (Telugu)</string>
+
+    <string name="setting_sound">రిమైండర్ ధ్వని (Chime)</string>
+    <string name="setting_sound_desc">మందుల సమయంలో ప్రత్యేక శబ్దం వినిపించు</string>
+
+    <string name="setting_schedule_times">షెడ్యూల్ సమయాలు</string>
+    <string name="setting_morning_time">ఉదయం సమయం</string>
+    <string name="setting_afternoon_time">మధ్యాహ్నం సమయం</string>
+    <string name="setting_night_time">రాత్రి సమయం</string>
+    <string name="btn_save_times">సమయాలను సేవ్ చేయండి</string>
+    <string name="btn_test_reminder">టెస్ట్ రిమైండర్ పంపండి</string>
+    <string name="btn_reset_demo">డెమో డేటాను రీసెట్ చేయండి</string>
+
+    <!-- Safety & Alerts -->
+    <string name="clinical_disclaimer_title">క్లినికల్ భద్రతా నిరాకరణ</string>
+    <string name="clinical_disclaimer_text">MedTracker వైద్య సలహా సేవ కాదు. AI విశ్లేషణలో లోపాలు ఉండవచ్చు. షెడ్యూల్ చేసే ముందు అసలు ప్రిస్క్రిప్షన్‌తో సరిచూసుకోండి. సందేహం ఉంటే వైద్యుడిని సంప్రదించండి.</string>
+    <string name="completion_notification_title">🎉 నేటి మోతాదులన్నీ పూర్తయ్యాయి!</string>
+    <string name="completion_notification_msg">చాలా బాగుంది! మీరు ఈరోజు షెడ్యూల్ చేసిన అన్ని మందులను వేసుకున్నారు.</string>
+</resources>

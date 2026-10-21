@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">MedTracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_medicines">Medicines</string>
+    <string name="nav_info">Med Info</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="dose_summary_title">Today\'s Dose Summary</string>
+    <string name="stat_scheduled">Scheduled</string>
+    <string name="stat_taken">Taken</string>
+    <string name="stat_pending">Pending</string>
+    <string name="stat_skipped">Skipped</string>
+
+    <string name="scan_hero_title">Scan New Prescription</string>
+    <string name="scan_hero_desc">Use Gemini AI to scan prescription images, extract medications, and build your schedule.</string>
+    <string name="scan_hero_button">Scan Prescription</string>
+
+    <string name="section_today_schedule">Today\'s Schedule</string>
+    <string name="section_morning">Morning Medicines</string>
+    <string name="section_afternoon">Afternoon Medicines</string>
+    <string name="section_night">Night Medicines</string>
+    <string name="empty_slot_morning">No morning medicines scheduled.</string>
+    <string name="empty_slot_afternoon">No afternoon medicines scheduled.</string>
+    <string name="empty_slot_night">No night medicines scheduled.</string>
+
+    <string name="btn_take_dose">Take Dose</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_undo">Undo</string>
+
+    <!-- Scanner Screen -->
+    <string name="scanner_title">Prescription AI Scanner</string>
+    <string name="scanner_desc">Capture with your phone camera, choose a photo from your gallery, or test with synthetic prescriptions.</string>
+    <string name="scanner_step_1">1. Choose Prescription Source</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_photo_picker">Photo Picker</string>
+    <string name="demo_rx_infection">🧪 Demo Rx A (Infection)</string>
+    <string name="demo_rx_cardiac">🧪 Demo Rx B (Cardiology)</string>
+    <string name="preview_title">Prescription Image Preview</string>
+    <string name="btn_extract_ai">Scan &amp; Extract with Gemini AI</string>
+    <string name="analyzing_prescription">Analyzing with Gemini Vision AI…</string>
+
+    <string name="scanner_step_2">2. Review Extracted Medications</string>
+    <string name="verify_instructions">Verify all medicine details against the original prescription above. Edit any fields before creating your schedule.</string>
+    <string name="checkbox_verify_disclaimer">I have checked all medicine names, strengths, and dosage instructions against the original prescription and confirm they are correct.</string>
+    <string name="btn_confirm_schedule">Confirm &amp; Create Medicine Schedule</string>
+    <string name="uncertainty_warning_title">⚠️ Verification Required for This Medicine</string>
+
+    <string name="field_med_name">Medicine Name</string>
+    <string name="field_strength">Strength</string>
+    <string name="field_form">Dosage Form (e.g. Tablet, Capsule)</string>
+    <string name="field_dosage">Dosage Amount</string>
+    <string name="field_frequency">Original Frequency Notation</string>
+    <string name="field_timing">Timing Instructions</string>
+    <string name="field_notes">Additional Instructions / Warnings</string>
+
+    <string name="slot_morning">Morning</string>
+    <string name="slot_afternoon">Afternoon</string>
+    <string name="slot_night">Night</string>
+
+    <!-- Medicines Screen -->
+    <string name="medicines_title">My Prescriptions</string>
+    <string name="medicines_subtitle">%d active medications currently on schedule</string>
+    <string name="search_hint">Search by name or instruction…</string>
+    <string name="no_meds_found">No Prescriptions Found</string>
+    <string name="btn_add_manual">Add Medication Manually</string>
+    <string name="delete_dialog_title">Delete Prescription?</string>
+    <string name="delete_dialog_msg">Are you sure you want to delete this medication? This will also remove scheduled doses.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Medicine Info Chatbot -->
+    <string name="info_title">Medicine Information</string>
+    <string name="info_subtitle">Clinical guidance on uses, side effects, and precautions powered by Gemini AI</string>
+    <string name="quick_ask_label">Ask about your active medications:</string>
+    <string name="chat_hint">Ask about a medicine (e.g. side effects of Amoxicillin)…</string>
+    <string name="btn_ask">Ask</string>
+    <string name="info_disclaimer">Informational guidance only. Not a medical diagnosis or substitute for healthcare consultation.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Adherence History</string>
+    <string name="history_subtitle">Track dose compliance and review past medicine records.</string>
+    <string name="compliance_score">Prescription Compliance</string>
+    <string name="filter_all">All</string>
+    <string name="filter_taken">Taken</string>
+    <string name="filter_skipped">Skipped</string>
+    <string name="no_history_records">No dose activity records in this category.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings &amp; Reminders</string>
+    <string name="settings_subtitle">Configure reminder times, sounds, theme, and language.</string>
+    <string name="setting_theme">Theme Mode</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="setting_language">App Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="lang_telugu">తెలుగు (Telugu)</string>
+
+    <string name="setting_sound">Reminder Sound Chime</string>
+    <string name="setting_sound_desc">Play bundled crystal chime when dose alerts trigger</string>
+
+    <string name="setting_schedule_times">Demonstration Schedule Times</string>
+    <string name="setting_morning_time">Morning Dose Time</string>
+    <string name="setting_afternoon_time">Afternoon Dose Time</string>
+    <string name="setting_night_time">Night Dose Time</string>
+    <string name="btn_save_times">Save Demonstration Times</string>
+    <string name="btn_test_reminder">Test Dose Reminder Notification</string>
+    <string name="btn_reset_demo">Reset Synthetic Demo Prescriptions</string>
+
+    <!-- Safety & Alerts -->
+    <string name="clinical_disclaimer_title">Clinical Safety Disclaimer</string>
+    <string name="clinical_disclaimer_text">MedTracker is not a medical advice service. AI extraction may contain errors. Verify all medicine information against the original prescription before scheduling. Consult a qualified healthcare professional if anything is unclear.</string>
+    <string name="completion_notification_title">🎉 All Doses Completed for Today!</string>
+    <string name="completion_notification_msg">Great job! You have taken all scheduled medications today.</string>
+</resources>

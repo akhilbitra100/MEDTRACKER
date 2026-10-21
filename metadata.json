@@ -1,0 +1,6 @@
+{
+  "name": "MedTracker",
+  "description": "AI-powered prescription scanner and medicine reminder app with smart schedules and adherence tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

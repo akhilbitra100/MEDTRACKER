@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21dp to 87dp) -->
+    <!-- Pill Capsule Body Shadow / Base -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-35">
+        <!-- Lower half of capsule (Teal) -->
+        <path
+            android:fillColor="#4DD0E1"
+            android:pathData="M43,54 L65,54 L65,69 A11,11 0 0,1 43,69 Z" />
+        <!-- Upper half of capsule (Pure White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M43,39 A11,11 0 0,1 65,39 L65,54 L43,54 Z" />
+        <!-- Capsule divider highlight -->
+        <path
+            android:pathData="M42,54 L66,54"
+            android:strokeWidth="1.5"
+            android:strokeColor="#B2EBF2" />
+        <!-- Subtle glossy sheen on white cap -->
+        <path
+            android:pathData="M47,35 A4,4 0 0,1 53,35"
+            android:strokeWidth="1.8"
+            android:strokeColor="#E0F7FA"
+            android:strokeLineCap="round" />
+    </group>
+
+    <!-- Foreground Medical Plus Cross Badge on bottom right of pill -->
+    <!-- Circular badge background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,55 A13,13 0 1,1 66.9,55 Z" />
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M67,57 A11,11 0 1,1 66.9,57 Z" />
+    <!-- White medical plus -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,62 L69,62 L69,66 L71,66 L71,62 L75,62 L75,60 L71,60 L71,56 L69,56 L69,60 L65,60 Z" />
+</vector>

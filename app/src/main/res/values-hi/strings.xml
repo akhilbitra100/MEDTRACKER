@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">MedTracker</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_medicines">दवाइयाँ</string>
+    <string name="nav_info">दवा जानकारी</string>
+    <string name="nav_history">इतिहास</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">शुभ प्रभात</string>
+    <string name="greeting_afternoon">शुभ दोपहर</string>
+    <string name="greeting_evening">शुभ संध्या</string>
+    <string name="dose_summary_title">आज की खुराक का सारांश</string>
+    <string name="stat_scheduled">निर्धारित</string>
+    <string name="stat_taken">ली गई</string>
+    <string name="stat_pending">बाकी</string>
+    <string name="stat_skipped">छोड़ी गई</string>
+
+    <string name="scan_hero_title">नया पर्चा स्कैन करें</string>
+    <string name="scan_hero_desc">पर्चे की फोटो स्कैन करने और समय सारिणी बनाने के लिए Gemini AI का उपयोग करें।</string>
+    <string name="scan_hero_button">पर्चा स्कैन करें</string>
+
+    <string name="section_today_schedule">आज का समय-निर्धारण</string>
+    <string name="section_morning">सुबह की दवाइयाँ</string>
+    <string name="section_afternoon">दोपहर की दवाइयाँ</string>
+    <string name="section_night">रात की दवाइयाँ</string>
+    <string name="empty_slot_morning">सुबह के लिए कोई दवा निर्धारित नहीं है।</string>
+    <string name="empty_slot_afternoon">दोपहर के लिए कोई दवा निर्धारित नहीं है।</string>
+    <string name="empty_slot_night">रात के लिए कोई दवा निर्धारित नहीं है।</string>
+
+    <string name="btn_take_dose">दवा ली</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_undo">पूर्ववत करें</string>
+
+    <!-- Scanner Screen -->
+    <string name="scanner_title">पर्चा AI स्कैनर</string>
+    <string name="scanner_desc">अपने फ़ोन के कैमरे से फ़ोटो लें, गैलरी से चुनें, या नमूना पर्चों का परीक्षण करें।</string>
+    <string name="scanner_step_1">1. पर्चा स्रोत चुनें</string>
+    <string name="btn_take_photo">फ़ोटो लें</string>
+    <string name="btn_photo_picker">फ़ोटो चुनें</string>
+    <string name="demo_rx_infection">🧪 नमूना पर्चा A (संक्रमण)</string>
+    <string name="demo_rx_cardiac">🧪 नमूना पर्चा B (हृदय रोग)</string>
+    <string name="preview_title">पर्चे का पूर्वावलोकन</string>
+    <string name="btn_extract_ai">Gemini AI द्वारा स्कैन करें</string>
+    <string name="analyzing_prescription">Gemini AI द्वारा विश्लेषण जारी है…</string>
+
+    <string name="scanner_step_2">2. निकाली गई दवाओं की जाँच करें</string>
+    <string name="verify_instructions">मूल पर्चे से सभी दवा विवरणों का मिलान करें। समय सारिणी बनाने से पहले विवरण संपादित करें।</string>
+    <string name="checkbox_verify_disclaimer">मैंने मूल पर्चे से सभी दवाओं के नाम, क्षमता और खुराक के निर्देशों की पुष्टि कर ली है।</string>
+    <string name="btn_confirm_schedule">पुष्टि करें और समय सारिणी बनाएं</string>
+    <string name="uncertainty_warning_title">⚠️ इस दवा के लिए सत्यापन आवश्यक है</string>
+
+    <string name="field_med_name">दवा का नाम</string>
+    <string name="field_strength">क्षमता (Strength)</string>
+    <string name="field_form">दवा का रूप (जैसे टैबलेट, कैप्सूल)</string>
+    <string name="field_dosage">खुराक की मात्रा</string>
+    <string name="field_frequency">खुराक की आवृत्ति</string>
+    <string name="field_timing">समय निर्देश</string>
+    <string name="field_notes">अतिरिक्त निर्देश / चेतावनियाँ</string>
+
+    <string name="slot_morning">सुबह</string>
+    <string name="slot_afternoon">दोपहर</string>
+    <string name="slot_night">रात</string>
+
+    <!-- Medicines Screen -->
+    <string name="medicines_title">मेरी दवाइयाँ</string>
+    <string name="medicines_subtitle">%d दवाइयाँ वर्तमान में समय सारिणी में सक्रिय हैं</string>
+    <string name="search_hint">नाम या निर्देश से खोजें…</string>
+    <string name="no_meds_found">कोई दवा नहीं मिली</string>
+    <string name="btn_add_manual">दवा स्वयं जोड़ें</string>
+    <string name="delete_dialog_title">दवा हटाएं?</string>
+    <string name="delete_dialog_msg">क्या आप वाकई इस दवा को हटाना चाहते हैं? इसके निर्धारित समय भी हट जाएंगे।</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="btn_cancel">रद्द करें</string>
+
+    <!-- Medicine Info Chatbot -->
+    <string name="info_title">दवा जानकारी</string>
+    <string name="info_subtitle">Gemini AI द्वारा दवा के उपयोग, दुष्प्रभाव और सावधानियों की नैदानिक जानकारी</string>
+    <string name="quick_ask_label">अपनी सक्रिय दवाओं के बारे में पूछें:</string>
+    <string name="chat_hint">दवा के बारे में पूछें (जैसे Amoxicillin के दुष्प्रभाव)…</string>
+    <string name="btn_ask">पूछें</string>
+    <string name="info_disclaimer">केवल सूचनात्मक मार्गदर्शन। यह कोई चिकित्सीय निदान या डॉक्टर के परामर्श का विकल्प नहीं है।</string>
+
+    <!-- History Screen -->
+    <string name="history_title">खुराक इतिहास</string>
+    <string name="history_subtitle">दवा लेने के रिकॉर्ड की समीक्षा करें और अनुपालन ट्रैक करें।</string>
+    <string name="compliance_score">दवा अनुपालन दर</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_taken">ली गई</string>
+    <string name="filter_skipped">छोड़ी गई</string>
+    <string name="no_history_records">इस श्रेणी में कोई रिकॉर्ड नहीं है।</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">सेटिंग्स और अनुस्मारक</string>
+    <string name="settings_subtitle">अनुस्मारक समय, ध्वनि, थीम और भाषा को प्रबंधित करें।</string>
+    <string name="setting_theme">थीम मोड</string>
+    <string name="theme_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="theme_light">लाइट मोड</string>
+    <string name="theme_dark">डार्क मोड</string>
+    <string name="setting_language">ऐप की भाषा</string>
+    <string name="lang_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="lang_telugu">తెలుగు (Telugu)</string>
+
+    <string name="setting_sound">अनुस्मारक ध्वनि (Chime)</string>
+    <string name="setting_sound_desc">दवा के समय विशेष ध्वनि बजाएं</string>
+
+    <string name="setting_schedule_times">प्रदर्शन समय-निर्धारण</string>
+    <string name="setting_morning_time">सुबह की दवा का समय</string>
+    <string name="setting_afternoon_time">दोपहर की दवा का समय</string>
+    <string name="setting_night_time">रात की दवा का समय</string>
+    <string name="btn_save_times">समय सहेजें</string>
+    <string name="btn_test_reminder">परीक्षण अनुस्मारक भेजें</string>
+    <string name="btn_reset_demo">नमूना डेटा रीसेट करें</string>
+
+    <!-- Safety & Alerts -->
+    <string name="clinical_disclaimer_title">चिकित्सीय सुरक्षा अस्वीकरण</string>
+    <string name="clinical_disclaimer_text">MedTracker कोई चिकित्सीय सलाह सेवा नहीं है। AI निष्कर्षण में त्रुटियाँ हो सकती हैं। समय सारिणी बनाने से पहले मूल पर्चे से मिलान करें। संदेह होने पर योग्य चिकित्सक से परामर्श करें।</string>
+    <string name="completion_notification_title">🎉 आज की सभी दवाइयाँ पूरी हुईं!</string>
+    <string name="completion_notification_msg">शानदार! आपने आज की सभी निर्धारित दवाइयाँ ले ली हैं।</string>
+</resources>
