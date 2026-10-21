@@ -12,12 +12,14 @@
 
 | **Home Dashboard** | **Prescription & Inventory** | **AI Medicine Information** |
 |:---:|:---:|:---:|
-| <img src="1000082773.jpg" alt="Home Screen" width="260"/> | <img src="1000082774.jpg" alt="Prescription List" width="260"/> | <img src="1000082775.jpg" alt="AI Med Info Chat" width="260"/> |
+| <img width="230" height="512" alt="1000082773" src="https://github.com/user-attachments/assets/4c1581d6-8bf9-4a35-87db-4c87cfed5614" />
+ |
 | *Dose summary, scheduled alerts, & AI prescription scanner* | *Active prescription cards, dose times, & refill tracker* | *Gemini-powered clinical guidance on uses & side effects* |
 
 | **Adherence History** | **Settings & Voice Reminders** |
 |:---:|:---:|
-| <img src="1000082776.jpg" alt="Adherence History" width="260"/> | <img src="1000082777.jpg" alt="Settings" width="260"/> |
+| <img width="230" height="512" alt="1000082774" src="https://github.com/user-attachments/assets/44606e2c-d724-4574-8817-a2bddca052c8" />
+ |
 | *7-day adherence scoring, dose logs, and trends* | *TTS voice alerts in English, Hindi, and Telugu* |
 
 ---
